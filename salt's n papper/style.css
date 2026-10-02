@@ -1,0 +1,1128 @@
+*{
+    margin: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* header */
+.header{
+    background-color: black;
+}
+.logo{
+    /* background-color: antiquewhite; */
+    width: 30%;
+    position: relative;
+    left: 10px;
+    text-align: center;
+}
+.logo img{
+    width: 165px;
+}
+.logo,.menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu{
+    /* background-color: aqua; */
+    width: 50%;
+    text-align: right;
+    padding: 30px;
+    /* margin-bottom:40px; */
+}
+.links ul li{
+    display: inline;
+    color: white;
+    font-size: 19px;
+    /* text-align: center; */
+    padding: 17px 36px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.links ul li:hover{
+    color: gray;
+}
+.links,.btn{
+    display: inline-block;
+}
+.btn-two:hover{
+    color: gray;
+}
+.btn-one{
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 15px;
+    border-radius: 25px;
+    margin-right: 7px;
+}
+.btn-one:hover{
+    color: gray;
+}
+.btn-two{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    border-radius:27px ;
+}
+.btn-two i{
+    background-color: white;
+    color: red;
+    padding: 5px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+/* section-one */
+.section-one{
+    width: 100%;
+}
+.section-one img{
+width: 100%;
+}
+/* saction-two \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.section-two{
+background-color: black;
+}
+.section-two .main-text{
+text-align: center;
+color: white;
+}
+.section-two .main-text p{
+    font-size: 30px;
+}
+.section-two .main-text p span{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.main-cards{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-cards img{
+    margin: 20px 10px 0px 0px;
+}
+.main-cards button{
+    background-color: transparent;
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-weight: 400px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 15px;
+    
+}
+.main-cards button:hover{
+    color: gray;
+}
+.main-cards-one img{
+   width: 200px;
+   object-fit: contain;
+   height: 150px;
+   background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
+}
+.main-cards-two img{
+     width: 200px;
+   object-fit: contain;
+   height: 150px;
+   background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
+}
+.main-cards-three img{
+     width: 200px;
+   object-fit: contain;
+   height: 150px;
+   background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
+}
+.main-cards-four img{
+     width: 200px;
+    object-fit: contain;
+    height: 150px;
+    background-color: #ffff;
+     padding: 0px 19px;
+     border-radius: 3px;
+}
+@font-face {
+    font-family:'my font';
+    src: url(/fornt/Limelight-Regular.ttf);
+}
+
+span.logo-text-hold {
+    font-family:'my font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.main-heading h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style:italic;
+    font-size: 55px;
+    line-height: 60px;
+    color:white;
+    margin-bottom: 8px;
+}
+.main-heading p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+ /*\\\\\\\\\\\\\\\\\\\\ */
+.section-two{
+background-color: black;
+}
+.section-two .main-text{
+text-align: center;
+color: white;
+}
+.section-two .main-text p{
+    font-size: 30px;
+}
+.section-two .main-text p span{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.main-cards{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-cards img{
+    margin: 20px 10px 0px 0px;
+}
+.main-cards button{
+    background-color: transparent;
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-weight: 400px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 15px;
+    
+}
+.main-cards button:hover{
+    color: gray;
+}
+.main-cards-one img{
+   width: 200px;
+   object-fit: contain;
+   height: 150px;
+   background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
+}
+.main-cards-two img{
+     width: 200px;
+   object-fit: contain;
+   height: 150px;
+   background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
+}
+.main-cards-three img{
+     width: 200px;
+   object-fit: contain;
+   height: 150px;
+   background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px;
+}
+.main-cards-four img{
+     width: 200px;
+    object-fit: contain;
+    height: 150px;
+    background-color: #ffff;
+     padding: 0px 19px;
+     border-radius: 3px;
+}
+@font-face {
+    font-family:'my font';
+    src: url(/fornt/Limelight-Regular.ttf);
+}
+
+span.logo-text-hold {
+    font-family:'my font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.main-heading h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style:italic;
+    font-size: 55px;
+    line-height: 60px;
+    color:white;
+    margin-bottom: 8px;
+}
+.main-heading p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+.franchise-one {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.franchise-one h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+}
+
+.franchise-one h2 {
+    color: white;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.text-one{
+    color: #dddddd;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pic-one img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.info-one {
+    text-align: left;
+}
+.info-one .city-one{
+    color: red;
+}
+
+.city-one {
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.info-one h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.info-one h4 {
+    color: white;
+    font-size: 30px;
+    margin: 5px 0 20px;
+}
+
+.info-one p {
+    color: white;
+    font-size: 17px;
+}
+
+.info-one button{
+    background-color: white;
+    color: #222222;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.info-one button:hover {
+    background-color: #e63946;
+    color: white;
+}
+/* box-two */
+.franchise-two {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.franchise-two h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+}
+
+.franchise-two h2 {
+    color: white;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.text-two{
+    color: #dddddd;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.box-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pic-two img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.pic-two img{
+    margin-left: auto;
+    position:relative;
+    left: 500px;
+}
+.info-two .city-two{
+    color: red;
+}
+
+.city-two {
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-transform:uppercase;
+    font-weight: bold;
+    position:relative;
+    right:600px;
+}
+
+.info-two h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 35px;
+    margin: 10px 0;
+    position: relative;
+    right: 600px;
+}
+
+.info-two h4 {
+    color: white;
+    font-size: 30px;
+    margin: 5px 0 20px;
+    position: relative;
+    right: 600px;
+}
+
+.info-two p {
+    color: white;
+    font-size: 17px;
+    position: relative;
+    right: 600px;
+}
+
+.info-two button {
+    background-color: white;
+    color: #222222;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    position: relative;
+    right: 600px;
+}
+
+.info-two button:hover {
+    background-color: #e63946;
+    color: white;
+}
+/* section-four-start */
+
+.franchise-section {
+    background-color: #0f0f12;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-family: Georgia, serif;
+}
+
+.main-title span {
+    display: block;
+    font-size: 46px;
+    margin-top: 0px;
+}
+.franchise-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.franchise-card {
+    width: 30%;
+    min-width: 220px;
+    text-align: center;
+}
+
+.franchies-cards .box-image,img:hover {
+     box-shadow: 0 5px 20px gray;
+}
+.franchise-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.city-name {
+    color: red;
+    font-size: 19px;
+    letter-spacing: 7px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.franchise-card h2 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.franchise-card h3 {
+    font-size: 30px;
+    font-weight: 200px;
+    margin: 0 0 15px;
+}
+.address {
+    color: #c6c6c6;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 10px 0;
+}
+.phone {
+    color: #c6c6c6;
+    font-size: 15px;
+    margin-top: 12px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\ */
+.franchise-button {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.franchise-button button {
+    width: 150px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+/* Hover Effect */
+.franchise-button button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/*  */
+.franchise-card {
+    width: 100%;
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+ }
+.direction-btn {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin: 150px 150px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 25px;
+    
+}
+/* HOVER EFFECT */
+.direction-btn:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    transform: translateY(-5px);
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    .franchise-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .franchise-card {
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 25px;
+    }
+.main-cards img:hover {
+    box-shadow: 0 5px 20px gray;
+}
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    .main-title span {
+        font-size: 30px;
+    }
+    .franchise-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: nowrap;
+}
+
+.franchise-card {
+    width: 33.33%;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.franchise-button-two {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.franchise-button-two button {
+    width: 150px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+/* Hover Effect */
+.franchise-button-two button:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/*  */
+.franchise-card-two {
+    width: 100%;
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+ } 
+ /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* Picture */
+.image-box-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-box-two img {
+    width: 100%;
+    max-width: 540px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* City Name */
+.city-name-two {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #ed1c24;
+}
+
+/* Salt'n Pepper */
+.franchise-card-two h3 {
+    margin: 8px 0 0;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Express */
+.express {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 3px;
+}
+
+/* Information */
+.info {
+    margin-top: 15px;
+}
+
+.info p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: white;
+    margin: 5px 0;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+/* Button */
+.franchise-buttons-two {
+    margin-top: 20px;
+}
+
+.direction-btn-two{
+    background-color:green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    left: 450px;
+}
+
+.direction-btn-two:hover {
+    background-color: grey;
+}
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Section */
+.village-section {
+    background-color: #111;
+    width: 100%;
+    min-height: 520px;
+    padding: 55px 30px;
+}
+
+/* Heading */
+.village-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.village-heading h1 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.village-heading h2 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Image + Text */
+.village-content {
+    max-width: 1100px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 25px;
+}
+
+/* Image */
+.village-image {
+    width: 52%;
+}
+
+.village-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+
+    transition: 0.3s;
+}
+
+/* Image Hover */
+.village-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 20px gray;
+}
+
+/* Right Side */
+.village-info {
+    width: 42%;
+    color: white;
+}
+
+/* City */
+.city {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 7px;
+    margin-bottom: 12px;
+}
+
+/* Title */
+.village-info h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.village-info h3 span {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+/* Address */
+.address {
+    color: #cfcfcf;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+/* Phone */
+.phone {
+    color: #cfcfcf;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.phone span {
+    color: #ddd;
+}
+
+/* Button */
+.direction-btn-three {
+    background-color: #25ad4b;
+    color: white;
+
+    border: none;
+    border-radius: 30px;
+
+    width: 175px;
+    height: 50px;
+
+    font-size: 14px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-left: 20px;
+}
+
+/* Arrow Circle */
+.direction-btn-three b {
+    background-color: white;
+    color: #25ad4b;
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+}
+
+/* Button Hover */
+.direction-btn-three:hover {
+    background-color: red;
+}
+
+.direction-btn-three:hover b {
+    color: red;
+}
+/*  */
+.container-4{
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+}
+.express-franchies-text{
+    text-align: center;
+}
+.express-franchies-text .container-4-text{
+    font-size: 40px;
+}
+.express-franchies-text .container-4-para{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.container-4-part-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 0 auto;
+}
+.express-franchies-box{
+    background-color: white;
+    color: black;
+    padding: 70px 50px;
+    border-radius: 10px;
+    align-content: center;
+}
+.express-franchies-box{
+    text-align: center;
+}
+.express-franchies-heading{
+    color: red;
+    font-size: 25px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.express-franchies-h2{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.express-franchies-para{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+/*  */
+.footer {
+  background-color: #0d0d0d;
+  padding: 50px 20px;
+  color: #b0b0b0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.col-brand {
+  flex: 1.5;
+}
+
+/* Logo Styling */
+.logo h2 {
+  color: #ffffff;
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sub-logo {
+  color: #d32f2f;
+  font-style: italic;
+  font-size: 16px;
+  display: block;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 25px;
+  color: #aaaaaa;
+  font-size: 13.5px;
+}
+
+.legal-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.legal-links a:hover {
+  text-decoration: underline;
+}
+
+/* Titles */
+.footer-column h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+/* Site Links */
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* Contact Section */
+.contact-info {
+  margin-bottom: 15px;
+}
+
+.contact-info h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.contact-info p {
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-btn {
+  width: 38px;
+  height: 38px;
+  background-color: #d32f2f;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+  background-color: #b71c1c;
+}
+
+/* App Buttons */
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-btn img {
+  width: 135px;
+  height: auto;
+  border-radius: 5px;
+}
